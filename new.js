@@ -11,7 +11,16 @@ const person = {
 }
 person.call();
 
-//3?
+//3
+const person2 = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
 
 //4
 const persons = {
@@ -37,3 +46,23 @@ function Person(name, age, job) {
   //Date
  //Error
  //Object.
+
+ //5
+ const person7 = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+//6
+const person8 = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
